@@ -1,0 +1,10 @@
+.grid-x{
+    border: 1px solid red;
+    background-color:lightgray;
+}
+.cell{
+    border: 1px solid red;
+}
+.custom-margin-y{
+    margin: 1em;
+}
