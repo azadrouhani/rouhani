@@ -1,10 +1,28 @@
 .grid-x{
-    border: 1px solid red;
-    background-color:lightgray;
+    margin:10px;
 }
 .cell{
-    border: 1px solid red;
+    margin:10px;
 }
 .custom-margin-y{
     margin: 1em;
+}
+.grid-container {
+    margin: 2em;
+}
+#portrait{
+    background-color:#FDA110;
+}
+#greeting{
+    padding:15px;
+}
+#season{
+    padding:15px;
+}
+
+#article{
+    background-color:#FDA110;
+}
+footer{
+    background-color:#FDA110;
 }
