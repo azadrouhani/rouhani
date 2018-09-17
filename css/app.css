@@ -26,14 +26,6 @@
 footer{
     background-color:#FDA110;
 }
-.mySlides{
-    display:none;
-    padding-left:30%;
-        max-width: 70%;
-    width: 100%;
-    height: 100%;
-    max-height: 70%;
-}
 .contact{
     padding: 1em;
 }
