@@ -13,9 +13,9 @@ if (day==0){
 }
 
 if (day==1){
-    document.getElementById("greeting").style.color = "cyan";
+    document.getElementById("greeting").style.color = "blue";
   document.getElementById("greeting").style.fontSize = "xx-large"; 
-  document.getElementById("greeting").style.backgroundImage="url(https://damrarola20.files.wordpress.com/2014/04/01.jpg)"
+  document.getElementById("greeting").style.backgroundImage="url(https://bloximages.chicago2.vip.townnews.com/lakeexpo.com/content/tncms/assets/v3/editorial/a/36/a360a35e-6be5-11e8-bf00-b7f0377b8f26/5b1bd1484bb73.image.jpg?resize=1200%2C675)"
 }
 
 if (day==2){
