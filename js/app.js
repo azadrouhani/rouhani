@@ -9,43 +9,43 @@ var greeting;
 if (day==0){
     document.getElementById("greeting").style.color = "purple";
   document.getElementById("greeting").style.fontSize = "xx-large"; 
-  document.getElementById("greeting").style.backgroundImage="url(https://wow.zamimg.com/uploads/screenshots/normal/640522-the-light-mother.jpg)"
+  document.getElementById("greeting").style.backgroundImage="url(https://d2d00szk9na1qq.cloudfront.net/Product/0d88353b-2719-44e1-bc39-348e80823930/Images/Large_0429768.jpg)"
 }
 
 if (day==1){
     document.getElementById("greeting").style.color = "blue";
   document.getElementById("greeting").style.fontSize = "xx-large"; 
-  document.getElementById("greeting").style.backgroundImage="url(https://bloximages.chicago2.vip.townnews.com/lakeexpo.com/content/tncms/assets/v3/editorial/a/36/a360a35e-6be5-11e8-bf00-b7f0377b8f26/5b1bd1484bb73.image.jpg?resize=1200%2C675)"
+  document.getElementById("greeting").style.backgroundImage="url(https://www.babybedding.com/images/fabric/solid-orange-minky-fabric_large.jpg)"
 }
 
 if (day==2){
     document.getElementById("greeting").style.color = "Orange";
   document.getElementById("greeting").style.fontSize = "xx-large"; 
-  document.getElementById("greeting").style.backgroundImage="url(https://d1u5p3l4wpay3k.cloudfront.net/wowpedia/2/2b/Servant_of_Neptulon_TCG.jpg)"
+  document.getElementById("greeting").style.backgroundImage="url(http://www.satodayscatholic.org/wp-content/uploads/2018/09/blue-background-023.jpg)"
 }
 
 if (day==3){
   document.getElementById("greeting").style.color = "yellow";
   document.getElementById("greeting").style.fontSize = "xx-large"; 
-  document.getElementById("greeting").style.backgroundImage="url(https://pre00.deviantart.net/4e79/th/pre/f/2009/351/c/b/arcane_magic_by_slashriot.jpg)"
+  document.getElementById("greeting").style.backgroundImage="url(https://images.fabric.com/images/693/693/0354278.jpg)"
 }
 
 if (day==4){
-    document.getElementById("greeting").style.color = "orange";
+    document.getElementById("greeting").style.color = "green";
   document.getElementById("greeting").style.fontSize = "xx-large"; 
-  document.getElementById("greeting").style.backgroundImage="url(https://www.powned.it/wp-content/uploads/2015/08/thufull.jpg)"
+  document.getElementById("greeting").style.backgroundImage="url(https://static1.squarespace.com/static/54bfc46be4b0a0e8a51ebbf6/t/59ee3a42ec4eb7210abbcba7/1506956074525/tourback.jpg?format=2500w)"
 }
 
 if (day==5){
     document.getElementById("greeting").style.color = "red";
   document.getElementById("greeting").style.fontSize = "xx-large"; 
-  document.getElementById("greeting").style.backgroundImage="url(https://img00.deviantart.net/ea33/i/2015/223/5/a/shadowmoon_valley__outland_by_wolf_demon_shadow-d959wjm.jpg)"
+  document.getElementById("greeting").style.backgroundImage="url(http://cherrypointumc.org/files/2016/07/kelly-green-paper-texture-with-flecks-1024x683.jpg)"
 }
 
 if (day==6){
     document.getElementById("greeting").style.color = "yellow";
   document.getElementById("greeting").style.fontSize = "xx-large"; 
-  document.getElementById("greeting").style.backgroundImage="url(https://vignette.wikia.nocookie.net/wowwiki/images/1/1a/Voidreaver.jpg/revision/latest?cb=20070912131708)"
+  document.getElementById("greeting").style.backgroundImage="url(https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX18954049.jpg)"
 }
 
 if(month==0){
