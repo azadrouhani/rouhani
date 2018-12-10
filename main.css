@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|VT323');
+
+h1, h2{
+    font-family: 'Press Start 2P', cursive;
+}
+
+p,ol{
+    font-family: 'VT323', monospace;
+    font-size:24px;
+}
+
+.title{
+    position:absolute;
+    left:300px;
+    text-align:center;
+    width:1400px
+}
+.introduction{
+    position:absolute;
+    left:500px;
+    top:300px;
+}
+.mainm{
+    position:absolute;
+    top:100px;
+    left:300px;
+    width:30px;
+    height:800px;
+    background-color: black;
+    overflow:hidden;
+    transition:all 5s;
+}
+
+.mainm:hover{
+    width:1400px;
+}
+
+.profile{
+    position:absolute;
+    top:30px;
+    left:30px;
+    width:50px;
+    height:24px;
+    background:white;
+    overflow:hidden;
+    transition:all 5s;
+    
+}
+
+.profile:hover{
+    left:100px;
+    width:1200px;
+    height:730px;
+}
+
+.prof1{
+    position:absolute;
+    top:400px;
+    left:950px;
+    width:200px;
+    height:250px;
+    color:white;
+    background:black;
+    padding:1em;
+}
+
+.prof2{
+    position:absolute;
+    top:400px;
+    left:50px;
+    width:200px;
+    height:250px;
+    color:white;
+    background:black;
+    padding:1em;
+}
+
+.projects{
+    position:absolute;
+    top:70px;
+    left:30px;
+    width:50px;
+    height:24px;
+    background:cyan;
+    overflow:hidden;
+    transition:all 5s;
+}
+
+.projects:hover{
+    top:29px;
+    left:100px;
+    width:1200px;
+    height:730px;
+}
+
+.projimg{
+    position:absolute;
+    left:600px;
+    top:100px;
+}
+.projimg2{
+    position:absolute;
+    left:800px;
+    top:400px;
+}
+
+.slideshow{
+    position:absolute;
+    top:110px;
+    left:30px;
+    width:50px;
+    height:24px;
+    background:magenta;
+    overflow:hidden;
+    transition:all 5s;
+}
+
+.slideshow:hover{
+      top:29px;
+    left:100px;
+    width:1200px;
+    height:730px;   
+}
+
+.credentials{
+    position:absolute;
+    top:150px;
+    left:30px;
+    width:50px;
+    height:24px;
+    background:yellow;
+    overflow:hidden;
+    transition:all 5s;
+}
+.credentials:hover{
+    top:29px;
+    left:100px;
+    width:1200px;
+    height:730px;  
+}
+
+.contact{
+    position:absolute;
+    top:190px;
+    left:30px;
+    width:50px;
+    height:24px;
+    background:lime;
+    overflow:hidden;
+    transition:all 5s;
+}
+.contact:hover{
+    top:29px;
+    left:100px;
+    width:1200px;
+    height:730px; 
+}
+
+.proftitle{
+    color:white;
+    position:absolute;
+    left:500px;
+    top:20px;
+    width:200px;
+    height:40px;
+    padding:5px;
+    background: black;
+    text-align:center;
+}
+
+.profimage{
+    position:absolute;
+    left:200px;
+}
+
+.projtitle{
+    color:white;
+    position:absolute;
+    left:485px;
+    top:20px;
+    width:240px;
+    height:40px;
+    padding:5px;
+    background: black;
+    text-align:center;
+}
+.projectlist{
+    position:absolute;
+    color:white;
+    left:100px;
+    top:160px;
+    width:400px;
+    height:500px;
+    background:black;
+    padding:3em;
+}
+
+.slidetitle{
+    color:white;
+    position:absolute;
+    left:480px;
+    top:20px;
+    width:250px;
+    height:40px;
+    padding:5px;
+    background: black;
+    text-align:center;
+}
+
+.credtitle{
+    color:white;
+    position:absolute;
+    left:460px;
+    top:20px;
+    width:280px;
+    height:40px;
+    padding:5px;
+    background: black;
+    text-align:center;
+}
+
+.cred1{
+    position:absolute;
+    top:400px;
+    left:100px;
+    width:200px;
+    height:250px;
+    color:white;
+    background:black;
+    padding:1em;
+}
+
+.cred2{
+    position:absolute;
+    top:400px;
+    left:500px;
+    width:200px;
+    height:250px;
+    color:white;
+    background:black;
+    padding:1em;
+}
+
+.cred3{
+    position:absolute;
+    top:400px;
+    left:900px;
+    width:200px;
+    height:250px;
+    color:white;
+    background:black;
+    padding:1em;
+}
+
+.conttitle{
+    color:white;
+    position:absolute;
+    left:505px;
+    top:20px;
+    width:190px;
+    height:40px;
+    padding:5px;
+    background: black;
+    text-align:center;
+}
+
+.contactcontain{
+    font-family: 'VT323', monospace;
+    font-size:24px;
+    position:absolute;
+    color:white;
+    background: black;
+    left:180px;
+    top:100px;
+    width:820px;
+    height:500px;
+    padding:2em;
+}
+
+.contintro{
+    position:absolute;
+    top:40px;
+}
+
+.name{
+    position:absolute;
+    top:100px;
+}
+
+.lname{
+    position:absolute;
+    top:130px;
+}
+
+.email{
+    position:absolute;
+    top:160px;
+}
+
+.bottomhalf{
+    position:absolute;
+    top:300px;
+}
+
+.wulogo{
+    position:absolute;
+    left:400px;
+    top:400px;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 400px;
+  position: relative;
+  margin-left: 400px;
+  margin-top:100px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
