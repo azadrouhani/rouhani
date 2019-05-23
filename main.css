@@ -9,89 +9,309 @@ p,ol{
     font-size:24px;
 }
 
+h3{
+    font-size:25px;
+    font-family: 'Press Start 2P', cursive;
+}
+
 .title{
     position:absolute;
     left:300px;
     text-align:center;
     width:1400px
 }
+.intro-background{
+    font-family: 'VT323', monospace;
+    font-size:24px;
+}
 .introduction{
     position:absolute;
     left:500px;
     top:300px;
 }
-.mainm{
+
+.prjtitle{
     position:absolute;
-    top:100px;
-    left:300px;
-    width:30px;
-    height:800px;
+    color:white;
+    font-size:20px;
+    left:230px;
+}
+
+a{
+    font-family: 'VT323', monospace;
+    font-size:20px;
+}
+
+.nudesc{
+    position:absolute;
+    left:15px;
+    color:black;
+}
+
+#nudesc1{
+    top:54px;
+}
+
+#nudesc2{
+    top:94px;
+}
+
+#nudesc3{
+    top:134px;
+}
+
+
+#nudesc4{
+    top:174px;
+}
+
+
+.prjdesc{
+    color:white;
+    position:absolute;
+    top:480px;
+    width:650px;
+    left:30px;
+}
+.gamedesc{
+    color:white;
+    position:absolute;
+    top:180px;
+    width:350px;
+    left:30px;
+}
+
+#projlink{
+   position:absolute;
+    left:700px;
+    top:500px;
+    padding:2em;
+    background-color:skyblue;
+    transition:all 1s;
+}
+
+#PClink{
+   position:absolute;
+    left:30px;
+    top:350px;
+    padding:1em;
+    background-color:skyblue;
+    transition:all 1s;
+}
+
+#MAClink{
+   position:absolute;
+    left:250px;
+    top:350px;
+    padding:1em;
+    background-color:skyblue;
+    transition:all 1s;
+}
+
+#projlink:hover{
+    background-color:orange;
+}
+
+.projimage{
+    position:absolute;
+    width:700px;
+    height:450px;
+    left:110px;
+    top:50px;
+}
+.gameimage{
+    position:absolute;
+    width:700px;
+    height:450px;
+    left:410px;
+    top:50px;
+}
+
+.mainlabel1{
+    position:absolute;
+    color:#cccccc;
+    top:5px;
+    left:30px;
+}
+
+.mainlabel2{
+    position:absolute;
+    color:#00b3b3;
+    top:46px;
+    left:30px;
+}
+
+.mainlabel3{
+    position:absolute;
+    color:#9900cc;
+    top:84px;
+    left:30px;
+
+}
+
+.mainlabel4{
+    position:absolute;
+    color:#999900;
+    top:126px;
+    left:30px;
+}
+
+.mainlabel5{
+    position:absolute;
+    color:#339933;
+    top:166px;
+    left:30px;
+
+}
+
+#mainm{
+    position:absolute;
     background-color: black;
+    top:70px;
+    left:50px;
     overflow:hidden;
     transition:all 5s;
+    height:800px;
+    width:30px;
 }
 
-.mainm:hover{
-    width:1400px;
-}
-
-.profile{
+#profileback{
     position:absolute;
     top:30px;
-    left:30px;
+    left:330px;
     width:50px;
     height:24px;
-    background:white;
+    background:#cccccc;
     overflow:hidden;
     transition:all 5s;
     
 }
 
-.profile:hover{
-    left:100px;
-    width:1200px;
-    height:730px;
+.prjsel{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:60px;
+    height:24px;
+    background-color:black;
+    opacity:1;
+    transition: all 1s;
 }
 
-.prof1{
+.prjsel:hover{
+    background-color:white;
+}
+
+#selection1{
     position:absolute;
-    top:380px;
-    left:950px;
-    width:200px;
-    height:270px;
+    left:0px;
+    top:0px;
+    width:60px;
+    height:24px;
+    background-color:#cccccc;
+    opacity:1;
+    transition: all 1s;
+}
+
+#selection1:hover{
+    background-color:white;
+}
+
+#selection2{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:60px;
+    height:24px;
+    background-color:#00b3b3;
+    opacity:1;
+    transition: all 1s;
+}
+
+#selection2:hover{
+    background-color:white;
+}
+
+#selection3{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:60px;
+    height:24px;
+    background-color:#9900cc;
+    opacity:1;
+    transition: all 1s;
+}
+
+#selection3:hover{
+    background-color:white;
+}
+
+#selection4{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:60px;
+    height:24px;
+    background-color:#999900;
+    opacity:1;
+    transition: all 1s;
+}
+
+#selection4:hover{
+    background-color:white;
+}
+
+#selection5{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:60px;
+    height:24px;
+    background-color:#339933;
+    opacity:1;
+    transition: all 1s;
+}
+
+#selection5:hover{
+    background-color:white;
+}
+
+
+ 
+#prf1{
+    position:absolute;
+    top:100px;
+    left:50px;
+    width:500px;
+    height:120px;
     color:white;
     background:black;
     padding:1em;
 }
 
-.prof2{
+#prf2{
     position:absolute;
     top:380px;
     left:50px;
-    width:200px;
-    height:270px;
+    width:500px;
+    height:120px;
     color:white;
     background:black;
     padding:1em;
 }
 
-.projects{
+#projects{
     position:absolute;
     top:70px;
-    left:30px;
+    left:330px;
     width:50px;
     height:24px;
-    background:cyan;
+    background:#00b3b3;
     overflow:hidden;
     transition:all 5s;
 }
 
-.projects:hover{
-    top:29px;
-    left:100px;
-    width:1200px;
-    height:730px;
-}
 
 .projimg{
     position:absolute;
@@ -104,62 +324,91 @@ p,ol{
     top:400px;
 }
 
-.slideshow{
+#project1{
+    position:absolute;
+    background-color:black;
+    width:50px;
+    height:20px;
+    left:90px;
+    top:80px;
+    transition: all 2s;
+    overflow:hidden;
+}
+
+#project2{
+    position:absolute;
+    background-color:black;
+    width:50px;
+    height:20px;
+    left:90px;
+    top:120px;
+    transition: all 2s;
+    overflow:hidden;
+}
+
+#project3{
+    position:absolute;
+    background-color:black;
+    width:50px;
+    height:20px;
+    left:90px;
+    top:160px;
+    transition: all 2s;
+    overflow:hidden;
+}
+
+#project4{
+    position:absolute;
+    background-color:black;
+    width:50px;
+    height:20px;
+    left:90px;
+    top:200px;
+    transition: all 2s;
+    overflow:hidden;
+}
+
+
+#slideshow{
     position:absolute;
     top:110px;
-    left:30px;
+    left:330px;
     width:50px;
     height:24px;
-    background:magenta;
+    background:#9900cc;
     overflow:hidden;
     transition:all 5s;
 }
 
-.slideshow:hover{
-      top:29px;
-    left:100px;
-    width:1200px;
-    height:730px;   
-}
 
-.credentials{
+#credentials{
     position:absolute;
     top:150px;
-    left:30px;
+    left:330px;
     width:50px;
     height:24px;
-    background:yellow;
+    background:#999900;
     overflow:hidden;
     transition:all 5s;
-}
-.credentials:hover{
-    top:29px;
-    left:100px;
-    width:1200px;
-    height:730px;  
 }
 
-.contact{
+
+#contact{
     position:absolute;
     top:190px;
-    left:30px;
+    left:330px;
     width:50px;
     height:24px;
-    background:lime;
+    background:#339933;
     overflow:hidden;
     transition:all 5s;
 }
-.contact:hover{
-    top:29px;
-    left:100px;
-    width:1200px;
-    height:730px; 
-}
+
 
 .proftitle{
     color:white;
     position:absolute;
-    left:500px;
+    left:200px;
     top:20px;
     width:200px;
     height:40px;
@@ -170,7 +419,8 @@ p,ol{
 
 .profimage{
     position:absolute;
-    left:200px;
+    left:600px;
+    top:40px;
 }
 
 .projtitle{
@@ -219,35 +469,98 @@ p,ol{
     text-align:center;
 }
 
-.cred1{
+.credimg1{
     position:absolute;
-    top:400px;
+    top:4px;
+    left: 340px;
+}
+
+.credimg2{
+    position:absolute;
+    top:4px;
+    left: 550px;
+}
+
+.credimg3{
+    position:absolute;
+    top:4px;
+    left: 800px;
+}
+
+.credimg4{
+    position:absolute;
+    top:4px;
+    left: 250px;
+}
+
+.credimg5{
+    position:absolute;
+    top:4px;
+    left: 50px;
+}
+
+.credimg6{
+    position:absolute;
+    top:15px;
+    left: 460px;
+}
+
+.cred11{
+    position:relative;
+    top:-17px;
+    left:-15px;
+    width:350px;
+    height:250px;
+    color:white;
+    padding:1em;
+}
+
+#cred1{
+    position:absolute;
+    top:100px;
     left:100px;
-    width:200px;
-    height:250px;
-    color:white;
+    width:1000px;
+    height:160px;
     background:black;
     padding:1em;
 }
 
-.cred2{
-    position:absolute;
-    top:400px;
-    left:500px;
-    width:200px;
-    height:250px;
+.cred22{
+    position:relative;
+    top:-17px;
+    left:630px;
+    width:350px;
+    height:160px;
     color:white;
+    padding:1em;
+}
+
+#cred2{
+    position:absolute;
+    top:280px;
+    left:100px;
+    width:1000px;
+    height:160px;
     background:black;
     padding:1em;
 }
 
-.cred3{
-    position:absolute;
-    top:400px;
-    left:900px;
-    width:200px;
+.cred33{
+    position:relative;
+    top:-17px;
+    left:-15px;
+    width:350px;
     height:250px;
     color:white;
+    padding:1em;
+}
+
+#cred3{
+    position:absolute;
+    top:460px;
+    left:100px;
+    width:1000px;
+    height:160px;
     background:black;
     padding:1em;
 }
@@ -273,7 +586,7 @@ p,ol{
     left:180px;
     top:100px;
     width:820px;
-    height:500px;
+    height:600px;
     padding:2em;
 }
 
@@ -281,10 +594,29 @@ p,ol{
     position:absolute;
     top:40px;
 }
+button{
+   border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+border-radius:2px;
+}
 
 .name{
     position:absolute;
     top:100px;
+    color:white;
+    font-size:20px;
+    
+}
+
+.fn{
+    position:relative;
+    left:60px;
 }
 
 .lname{
@@ -292,9 +624,22 @@ p,ol{
     top:130px;
 }
 
-.email{
+.ln{
+    position:relative;
+    left:110px;
+    color:black;
+}
+
+
+.phone{
     position:absolute;
-    top:160px;
+    top:180px;
+    font-size:20px;
+}
+
+.phoneno{
+    position:absolute;
+    top:220px;
 }
 
 .bottomhalf{
@@ -406,3 +751,5 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+
